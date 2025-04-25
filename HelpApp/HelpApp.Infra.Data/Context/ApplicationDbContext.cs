@@ -15,5 +15,6 @@ namespace HelpApp.Infra.Data.Context
             builder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
 
         }
+
     }
 }
